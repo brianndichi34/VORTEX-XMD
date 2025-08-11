@@ -159,7 +159,7 @@
     "ANTI_DEL_PATH": {
       "description": "Where to resend deleted messages: 'same' or 'inbox'.",
       "required": false,
-      "value": "false"
+      "value": "same"
     },
     "ADMIN_EVENTS": {
       "description": "Announce admin promotion/demotion.",
