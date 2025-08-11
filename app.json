@@ -19,7 +19,7 @@
     "PREFIX": {
       "description": "Bot command prefix. Do not leave empty or null.",
       "required": false,
-      "value": "."
+      "value": ","
     },
     "ANTI_CALL": {
       "description": "Reject incoming calls automatically.",
@@ -49,7 +49,7 @@
     "ALWAYS_ONLINE": {
       "description": "Always show bot as online.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_REPLY": {
       "description": "Send automatic replies to chats.",
@@ -89,7 +89,7 @@
     "OWNER_NUMBER": {
       "description": "Owner's WhatsApp number with country code.",
       "required": false,
-      "value": "2557607XXXX"
+      "value": "254717276195"
     },
     "BOT_NAME": {
       "description": "Bot name.",
@@ -159,7 +159,7 @@
     "ANTI_DEL_PATH": {
       "description": "Where to resend deleted messages: 'same' or 'inbox'.",
       "required": false,
-      "value": "same"
+      "value": "inbox"
     },
     "ADMIN_EVENTS": {
       "description": "Announce admin promotion/demotion.",
