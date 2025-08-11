@@ -41,7 +41,7 @@ module.exports = {
     //          MESSAGES
     // ==============================
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
-    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
+    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "false",
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
