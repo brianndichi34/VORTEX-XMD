@@ -14,22 +14,22 @@ module.exports = {
     // ==============================
     //           OWNER
     // ==============================
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "254717276195",
     OWNER_NAME: process.env.OWNER_NAME || "HansTech",
     DEV: process.env.DEV || "254717276195",
 
     // ==============================
     //         ANTI CALL
     // ==============================
-    ANTI_CALL: process.env.ANTI_CALL || "false", // "true" = Warn only, no block
+    ANTI_CALL: process.env.ANTI_CALL || "false", // "false" = Warn only, no block
     ANTI_CALL_BLOCK: process.env.ANTI_CALL_BLOCK || "true", // "true" = 5 warnings then block
     AUTO_BLOCK: process.envAUTO_BLOCK || "false",
     // ==============================
     //            MODE
     // ==============================
     MODE: process.env.MODE || "public",
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 
     // ==============================
     //          CHATBOT
