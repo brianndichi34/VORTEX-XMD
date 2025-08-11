@@ -9,14 +9,14 @@ module.exports = {
     // ==============================
     //          SESSION
     // ==============================
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "HansTz&b54ihQaC#qJkgngGr6f9ocoV0L-Br4_Mh-WZU0Oblq5NeWrteDfM",
 
     // ==============================
     //           OWNER
     // ==============================
     OWNER_NUMBER: process.env.OWNER_NUMBER || "",
     OWNER_NAME: process.env.OWNER_NAME || "HansTech",
-    DEV: process.env.DEV || "255614195217",
+    DEV: process.env.DEV || "254717276195",
 
     // ==============================
     //         ANTI CALL
@@ -41,7 +41,7 @@ module.exports = {
     //          MESSAGES
     // ==============================
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
-    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "some",
+    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -72,7 +72,7 @@ module.exports = {
     //      BOT APPEARANCE
     // ==============================
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/di5kdx.jpg",
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || ",",
     BOT_NAME: process.env.BOT_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
     STICKER_NAME: process.env.STICKER_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/di5kdx.jpg",
