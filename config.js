@@ -9,7 +9,7 @@ module.exports = {
     // ==============================
     //          SESSION
     // ==============================
-    SESSION_ID: process.env.SESSION_ID || "HansTz&b54ihQaC#qJkgngGr6f9ocoV0L-Br4_Mh-WZU0Oblq5NeWrteDfM",
+    SESSION_ID: process.env.SESSION_ID || "",
 
     // ==============================
     //           OWNER
@@ -41,7 +41,7 @@ module.exports = {
     //          MESSAGES
     // ==============================
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
-    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "false",
+    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     AUTO_REACT: process.env.AUTO_REACT || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
